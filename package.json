@@ -39,7 +39,7 @@
     "fs-extra": "^10.0.0",
     "profanities": "^3.0.0",
     "reflect-metadata": "^0.1.13",
-    "winston": "^3.3.3"
+    "winston": "^3.6.0"
   },
   "packageManager": "yarn@3.0.2"
 }
