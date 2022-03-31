@@ -20,7 +20,7 @@
     "@babel/plugin-proposal-class-properties": "^7.16.7",
     "@babel/plugin-proposal-decorators": "^7.15.8",
     "@babel/preset-env": "^7.16.11",
-    "@babel/preset-typescript": "^7.15.0",
+    "@babel/preset-typescript": "^7.16.7",
     "@types/fs-extra": "^9.0.13",
     "@types/node": "^16.11.4",
     "nodemon": "^2.0.15",
