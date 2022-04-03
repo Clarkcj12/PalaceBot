@@ -1292,9 +1292,9 @@ combined-stream@^1.0.8:
   dependencies:
     delayed-stream "~1.0.0"
 
-command-line-args@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.npmjs.org/command-line-args/-/command-line-args-5.2.0.tgz"
+command-line-args@^5.2.1:
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/command-line-args/-/command-line-args-5.2.1.tgz#c44c32e437a57d7c51157696893c5909e9cec42e"
   dependencies:
     array-back "^3.1.0"
     find-replace "^3.0.0"
