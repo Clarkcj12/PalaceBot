@@ -1036,16 +1036,15 @@ add@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
 
-amqplib@^0.8.0:
-  version "0.8.0"
-  resolved "https://registry.npmjs.org/amqplib/-/amqplib-0.8.0.tgz"
+amqplib@^0.9.0:
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.9.0.tgz#b2b8705bf8ca3579caef244f01a30a568512f0fd"
   dependencies:
     bitsyntax "~0.1.0"
     bluebird "^3.7.2"
     buffer-more-ints "~1.0.0"
     readable-stream "1.x >=1.1.9"
-    safe-buffer "~5.2.1"
-    url-parse "~1.5.1"
+    url-parse "~1.5.10"
 
 ansi-align@^3.0.0:
   version "3.0.1"
@@ -2287,10 +2286,6 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1, safe-buffer@~5.1.2:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
 
-safe-buffer@~5.2.1:
-  version "5.2.1"
-  resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.2.1.tgz"
-
 safe-stable-stringify@^2.3.1:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/safe-stable-stringify/-/safe-stable-stringify-2.3.1.tgz#ab67cbe1fe7d40603ca641c5e765cb942d04fc73"
@@ -2551,7 +2546,7 @@ url-parse-lax@^3.0.0:
   dependencies:
     prepend-http "^2.0.0"
 
-url-parse@~1.5.1:
+url-parse@~1.5.10:
   version "1.5.10"
   resolved "https://registry.yarnpkg.com/url-parse/-/url-parse-1.5.10.tgz#9d3c2f736c1d75dd3bd2be507dcc111f1e2ea9c1"
   dependencies:
