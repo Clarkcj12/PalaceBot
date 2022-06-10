@@ -1090,12 +1090,11 @@ add@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
 
-amqplib@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.9.0.tgz#b2b8705bf8ca3579caef244f01a30a568512f0fd"
+amqplib@^0.10.0:
+  version "0.10.0"
+  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.10.0.tgz#766d696f8ceae097ee9eb73e6796999e5d40a1db"
   dependencies:
     bitsyntax "~0.1.0"
-    bluebird "^3.7.2"
     buffer-more-ints "~1.0.0"
     readable-stream "1.x >=1.1.9"
     url-parse "~1.5.10"
@@ -1187,10 +1186,6 @@ bitsyntax@~0.1.0:
     buffer-more-ints "~1.0.0"
     debug "~2.6.9"
     safe-buffer "~5.1.2"
-
-bluebird@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz"
 
 boxen@^5.0.0:
   version "5.1.2"
