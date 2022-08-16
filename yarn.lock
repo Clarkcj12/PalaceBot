@@ -1196,9 +1196,9 @@ add@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
 
-amqplib@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.10.0.tgz#766d696f8ceae097ee9eb73e6796999e5d40a1db"
+amqplib@^0.10.2:
+  version "0.10.2"
+  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.10.2.tgz#04ec8cbdcdf526dc36a4e46fb0591d449dca3372"
   dependencies:
     bitsyntax "~0.1.0"
     buffer-more-ints "~1.0.0"
