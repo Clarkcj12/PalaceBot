@@ -1844,9 +1844,9 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-profanities@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.npmjs.org/profanities/-/profanities-3.0.0.tgz"
+profanities@^3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/profanities/-/profanities-3.0.1.tgz#96cfac44e895e6860bdef962846d59e002d09b53"
 
 pstree.remy@^1.1.8:
   version "1.1.8"
