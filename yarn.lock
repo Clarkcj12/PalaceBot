@@ -16,9 +16,9 @@
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.0"
 
-"@babel/cli@^7.21.5":
-  version "7.21.5"
-  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.21.5.tgz#a685a5b50b785f2edfbf6e042c1265c653547d9d"
+"@babel/cli@^7.22.9":
+  version "7.22.9"
+  resolved "https://registry.yarnpkg.com/@babel/cli/-/cli-7.22.9.tgz#501b3614aeda7399371f6d5991404f069b059986"
   dependencies:
     "@jridgewell/trace-mapping" "^0.3.17"
     commander "^4.0.1"
