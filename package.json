@@ -14,7 +14,7 @@
   "license": "MIT",
   "private": true,
   "devDependencies": {
-    "@babel/cli": "^7.21.5",
+    "@babel/cli": "^7.23.4",
     "@babel/core": "^7.20.5",
     "@babel/node": "^7.20.7",
     "@babel/plugin-proposal-class-properties": "^7.16.7",
