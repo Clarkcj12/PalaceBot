@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@types/amqplib": "^0.10.1",
-    "@types/command-line-args": "^5.2.0",
+    "@types/command-line-args": "^5.2.3",
     "add": "^2.0.6",
     "amqplib": "^0.10.3",
     "colors": "^1.4.0",
