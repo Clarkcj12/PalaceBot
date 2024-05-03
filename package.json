@@ -35,7 +35,7 @@
     "colors": "^1.4.0",
     "command-line-args": "^5.2.1",
     "discord.js": "^14.11.0",
-    "dotenv": "^16.3.1",
+    "dotenv": "^16.4.5",
     "fs-extra": "^11.1.1",
     "profanities": "^3.0.1",
     "reflect-metadata": "^0.1.13",
