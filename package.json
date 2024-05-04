@@ -38,7 +38,7 @@
     "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0",
     "profanities": "^3.0.1",
-    "reflect-metadata": "^0.1.13",
+    "reflect-metadata": "^0.2.2",
     "winston": "^3.11.0"
   },
   "packageManager": "yarn@3.0.2"
