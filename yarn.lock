@@ -39,13 +39,6 @@
     "@babel/highlight" "^7.24.2"
     picocolors "^1.0.0"
 
-"@babel/code-frame@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.24.7.tgz#882fd9e09e8ee324e496bd040401c6f046ef4465"
-  dependencies:
-    "@babel/highlight" "^7.24.7"
-    picocolors "^1.0.0"
-
 "@babel/code-frame@^7.25.7":
   version "7.25.7"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.25.7.tgz#438f2c524071531d643c6f0188e1e28f130cebc7"
@@ -86,15 +79,6 @@
     "@jridgewell/trace-mapping" "^0.3.25"
     jsesc "^2.5.1"
 
-"@babel/generator@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.24.7.tgz#1654d01de20ad66b4b4d99c135471bc654c55e6d"
-  dependencies:
-    "@babel/types" "^7.24.7"
-    "@jridgewell/gen-mapping" "^0.3.5"
-    "@jridgewell/trace-mapping" "^0.3.25"
-    jsesc "^2.5.1"
-
 "@babel/generator@^7.25.7":
   version "7.25.7"
   resolved "https://registry.yarnpkg.com/@babel/generator/-/generator-7.25.7.tgz#de86acbeb975a3e11ee92dd52223e6b03b479c56"
@@ -109,12 +93,6 @@
   resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.18.6.tgz#eaa49f6f80d5a33f9a5dd2276e6d6e451be0a6bb"
   dependencies:
     "@babel/types" "^7.18.6"
-
-"@babel/helper-annotate-as-pure@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-annotate-as-pure/-/helper-annotate-as-pure-7.22.5.tgz#e7f06737b197d580a01edf75d97e2c8be99d3882"
-  dependencies:
-    "@babel/types" "^7.22.5"
 
 "@babel/helper-annotate-as-pure@^7.24.7":
   version "7.24.7"
@@ -145,35 +123,7 @@
     lru-cache "^5.1.1"
     semver "^6.3.1"
 
-"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.22.6":
-  version "7.22.9"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.22.9.tgz#c36ea240bb3348f942f08b0fbe28d6d979fab236"
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.22.5"
-    "@babel/helper-environment-visitor" "^7.22.5"
-    "@babel/helper-function-name" "^7.22.5"
-    "@babel/helper-member-expression-to-functions" "^7.22.5"
-    "@babel/helper-optimise-call-expression" "^7.22.5"
-    "@babel/helper-replace-supers" "^7.22.9"
-    "@babel/helper-skip-transparent-expression-wrappers" "^7.22.5"
-    "@babel/helper-split-export-declaration" "^7.22.6"
-    semver "^6.3.1"
-
-"@babel/helper-create-class-features-plugin@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.24.7.tgz#2eaed36b3a1c11c53bdf80d53838b293c52f5b3b"
-  dependencies:
-    "@babel/helper-annotate-as-pure" "^7.24.7"
-    "@babel/helper-environment-visitor" "^7.24.7"
-    "@babel/helper-function-name" "^7.24.7"
-    "@babel/helper-member-expression-to-functions" "^7.24.7"
-    "@babel/helper-optimise-call-expression" "^7.24.7"
-    "@babel/helper-replace-supers" "^7.24.7"
-    "@babel/helper-skip-transparent-expression-wrappers" "^7.24.7"
-    "@babel/helper-split-export-declaration" "^7.24.7"
-    semver "^6.3.1"
-
-"@babel/helper-create-class-features-plugin@^7.25.7":
+"@babel/helper-create-class-features-plugin@^7.18.6", "@babel/helper-create-class-features-plugin@^7.24.7", "@babel/helper-create-class-features-plugin@^7.25.7":
   version "7.25.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-create-class-features-plugin/-/helper-create-class-features-plugin-7.25.7.tgz#5d65074c76cae75607421c00d6bd517fe1892d6b"
   dependencies:
@@ -214,23 +164,6 @@
   version "7.22.20"
   resolved "https://registry.yarnpkg.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.20.tgz#96159db61d34a29dba454c959f5ae4a649ba9167"
 
-"@babel/helper-environment-visitor@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.22.5.tgz#f06dd41b7c1f44e1f8da6c4055b41ab3a09a7e98"
-
-"@babel/helper-environment-visitor@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-environment-visitor/-/helper-environment-visitor-7.24.7.tgz#4b31ba9551d1f90781ba83491dd59cf9b269f7d9"
-  dependencies:
-    "@babel/types" "^7.24.7"
-
-"@babel/helper-function-name@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.22.5.tgz#ede300828905bb15e582c037162f99d5183af1be"
-  dependencies:
-    "@babel/template" "^7.22.5"
-    "@babel/types" "^7.22.5"
-
 "@babel/helper-function-name@^7.23.0":
   version "7.23.0"
   resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.23.0.tgz#1f9a3cdbd5b2698a670c30d2735f9af95ed52759"
@@ -238,37 +171,11 @@
     "@babel/template" "^7.22.15"
     "@babel/types" "^7.23.0"
 
-"@babel/helper-function-name@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-function-name/-/helper-function-name-7.24.7.tgz#75f1e1725742f39ac6584ee0b16d94513da38dd2"
-  dependencies:
-    "@babel/template" "^7.24.7"
-    "@babel/types" "^7.24.7"
-
 "@babel/helper-hoist-variables@^7.22.5":
   version "7.22.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-hoist-variables/-/helper-hoist-variables-7.22.5.tgz#c01a007dac05c085914e8fb652b339db50d823bb"
   dependencies:
     "@babel/types" "^7.22.5"
-
-"@babel/helper-hoist-variables@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-hoist-variables/-/helper-hoist-variables-7.24.7.tgz#b4ede1cde2fd89436397f30dc9376ee06b0f25ee"
-  dependencies:
-    "@babel/types" "^7.24.7"
-
-"@babel/helper-member-expression-to-functions@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.22.5.tgz#0a7c56117cad3372fbf8d2fb4bf8f8d64a1e76b2"
-  dependencies:
-    "@babel/types" "^7.22.5"
-
-"@babel/helper-member-expression-to-functions@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-member-expression-to-functions/-/helper-member-expression-to-functions-7.24.7.tgz#67613d068615a70e4ed5101099affc7a41c5225f"
-  dependencies:
-    "@babel/traverse" "^7.24.7"
-    "@babel/types" "^7.24.7"
 
 "@babel/helper-member-expression-to-functions@^7.25.7":
   version "7.25.7"
@@ -309,18 +216,6 @@
     "@babel/helper-validator-identifier" "^7.25.7"
     "@babel/traverse" "^7.25.7"
 
-"@babel/helper-optimise-call-expression@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.22.5.tgz#f21531a9ccbff644fdd156b4077c16ff0c3f609e"
-  dependencies:
-    "@babel/types" "^7.22.5"
-
-"@babel/helper-optimise-call-expression@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.24.7.tgz#8b0a0456c92f6b323d27cfd00d1d664e76692a0f"
-  dependencies:
-    "@babel/types" "^7.24.7"
-
 "@babel/helper-optimise-call-expression@^7.25.7":
   version "7.25.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-optimise-call-expression/-/helper-optimise-call-expression-7.25.7.tgz#1de1b99688e987af723eed44fa7fc0ee7b97d77a"
@@ -338,22 +233,6 @@
     "@babel/helper-annotate-as-pure" "^7.25.7"
     "@babel/helper-wrap-function" "^7.25.7"
     "@babel/traverse" "^7.25.7"
-
-"@babel/helper-replace-supers@^7.22.5", "@babel/helper-replace-supers@^7.22.9":
-  version "7.22.9"
-  resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.22.9.tgz#cbdc27d6d8d18cd22c81ae4293765a5d9afd0779"
-  dependencies:
-    "@babel/helper-environment-visitor" "^7.22.5"
-    "@babel/helper-member-expression-to-functions" "^7.22.5"
-    "@babel/helper-optimise-call-expression" "^7.22.5"
-
-"@babel/helper-replace-supers@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-replace-supers/-/helper-replace-supers-7.24.7.tgz#f933b7eed81a1c0265740edc91491ce51250f765"
-  dependencies:
-    "@babel/helper-environment-visitor" "^7.24.7"
-    "@babel/helper-member-expression-to-functions" "^7.24.7"
-    "@babel/helper-optimise-call-expression" "^7.24.7"
 
 "@babel/helper-replace-supers@^7.25.7":
   version "7.25.7"
@@ -376,19 +255,6 @@
     "@babel/traverse" "^7.25.7"
     "@babel/types" "^7.25.7"
 
-"@babel/helper-skip-transparent-expression-wrappers@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.22.5.tgz#007f15240b5751c537c40e77abb4e89eeaaa8847"
-  dependencies:
-    "@babel/types" "^7.22.5"
-
-"@babel/helper-skip-transparent-expression-wrappers@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.24.7.tgz#5f8fa83b69ed5c27adc56044f8be2b3ea96669d9"
-  dependencies:
-    "@babel/traverse" "^7.24.7"
-    "@babel/types" "^7.24.7"
-
 "@babel/helper-skip-transparent-expression-wrappers@^7.25.7":
   version "7.25.7"
   resolved "https://registry.yarnpkg.com/@babel/helper-skip-transparent-expression-wrappers/-/helper-skip-transparent-expression-wrappers-7.25.7.tgz#382831c91038b1a6d32643f5f49505b8442cb87c"
@@ -396,23 +262,11 @@
     "@babel/traverse" "^7.25.7"
     "@babel/types" "^7.25.7"
 
-"@babel/helper-split-export-declaration@^7.22.6":
-  version "7.22.6"
-  resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.22.6.tgz#322c61b7310c0997fe4c323955667f18fcefb91c"
-  dependencies:
-    "@babel/types" "^7.22.5"
-
 "@babel/helper-split-export-declaration@^7.24.5":
   version "7.24.5"
   resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.24.5.tgz#b9a67f06a46b0b339323617c8c6213b9055a78b6"
   dependencies:
     "@babel/types" "^7.24.5"
-
-"@babel/helper-split-export-declaration@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/helper-split-export-declaration/-/helper-split-export-declaration-7.24.7.tgz#83949436890e07fa3d6873c61a96e3bbf692d856"
-  dependencies:
-    "@babel/types" "^7.24.7"
 
 "@babel/helper-string-parser@^7.24.1":
   version "7.24.1"
@@ -467,15 +321,6 @@
     js-tokens "^4.0.0"
     picocolors "^1.0.0"
 
-"@babel/highlight@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.24.7.tgz#a05ab1df134b286558aae0ed41e6c5f731bf409d"
-  dependencies:
-    "@babel/helper-validator-identifier" "^7.24.7"
-    chalk "^2.4.2"
-    js-tokens "^4.0.0"
-    picocolors "^1.0.0"
-
 "@babel/highlight@^7.25.7":
   version "7.25.7"
   resolved "https://registry.yarnpkg.com/@babel/highlight/-/highlight-7.25.7.tgz#20383b5f442aa606e7b5e3043b0b1aafe9f37de5"
@@ -499,10 +344,6 @@
 "@babel/parser@^7.24.0", "@babel/parser@^7.24.5":
   version "7.24.5"
   resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.24.5.tgz#4a4d5ab4315579e5398a82dcf636ca80c3392790"
-
-"@babel/parser@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/parser/-/parser-7.24.7.tgz#9a5226f92f0c5c8ead550b750f5608e766c8ce85"
 
 "@babel/parser@^7.25.7":
   version "7.25.7"
@@ -551,15 +392,13 @@
     "@babel/helper-create-class-features-plugin" "^7.18.6"
     "@babel/helper-plugin-utils" "^7.18.6"
 
-"@babel/plugin-proposal-decorators@^7.22.7":
-  version "7.22.7"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.22.7.tgz#9b5b73c2e404f0869ef8a8a53765f8203c5467a7"
+"@babel/plugin-proposal-decorators@^7.25.7":
+  version "7.25.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-proposal-decorators/-/plugin-proposal-decorators-7.25.7.tgz#dabfd82df5dff3a8fc61a434233bf8227c88402c"
   dependencies:
-    "@babel/helper-create-class-features-plugin" "^7.22.6"
-    "@babel/helper-plugin-utils" "^7.22.5"
-    "@babel/helper-replace-supers" "^7.22.5"
-    "@babel/helper-split-export-declaration" "^7.22.6"
-    "@babel/plugin-syntax-decorators" "^7.22.5"
+    "@babel/helper-create-class-features-plugin" "^7.25.7"
+    "@babel/helper-plugin-utils" "^7.25.7"
+    "@babel/plugin-syntax-decorators" "^7.25.7"
 
 "@babel/plugin-proposal-private-property-in-object@7.21.0-placeholder-for-preset-env.2":
   version "7.21.0-placeholder-for-preset-env.2"
@@ -583,11 +422,11 @@
   dependencies:
     "@babel/helper-plugin-utils" "^7.14.5"
 
-"@babel/plugin-syntax-decorators@^7.22.5":
-  version "7.22.5"
-  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.22.5.tgz#329fe2907c73de184033775637dbbc507f09116a"
+"@babel/plugin-syntax-decorators@^7.25.7":
+  version "7.25.7"
+  resolved "https://registry.yarnpkg.com/@babel/plugin-syntax-decorators/-/plugin-syntax-decorators-7.25.7.tgz#cf26fdde4e750688e133c0e33ead2506377e88f7"
   dependencies:
-    "@babel/helper-plugin-utils" "^7.22.5"
+    "@babel/helper-plugin-utils" "^7.25.7"
 
 "@babel/plugin-syntax-dynamic-import@^7.8.3":
   version "7.8.3"
@@ -1167,21 +1006,13 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/template@^7.22.15", "@babel/template@^7.22.5", "@babel/template@^7.24.0":
+"@babel/template@^7.22.15", "@babel/template@^7.24.0":
   version "7.24.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.24.0.tgz#c6a524aa93a4a05d66aaf31654258fae69d87d50"
   dependencies:
     "@babel/code-frame" "^7.23.5"
     "@babel/parser" "^7.24.0"
     "@babel/types" "^7.24.0"
-
-"@babel/template@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.24.7.tgz#02efcee317d0609d2c07117cb70ef8fb17ab7315"
-  dependencies:
-    "@babel/code-frame" "^7.24.7"
-    "@babel/parser" "^7.24.7"
-    "@babel/types" "^7.24.7"
 
 "@babel/template@^7.25.7":
   version "7.25.7"
@@ -1203,21 +1034,6 @@
     "@babel/helper-split-export-declaration" "^7.24.5"
     "@babel/parser" "^7.24.5"
     "@babel/types" "^7.24.5"
-    debug "^4.3.1"
-    globals "^11.1.0"
-
-"@babel/traverse@^7.24.7":
-  version "7.24.7"
-  resolved "https://registry.yarnpkg.com/@babel/traverse/-/traverse-7.24.7.tgz#de2b900163fa741721ba382163fe46a936c40cf5"
-  dependencies:
-    "@babel/code-frame" "^7.24.7"
-    "@babel/generator" "^7.24.7"
-    "@babel/helper-environment-visitor" "^7.24.7"
-    "@babel/helper-function-name" "^7.24.7"
-    "@babel/helper-hoist-variables" "^7.24.7"
-    "@babel/helper-split-export-declaration" "^7.24.7"
-    "@babel/parser" "^7.24.7"
-    "@babel/types" "^7.24.7"
     debug "^4.3.1"
     globals "^11.1.0"
 
@@ -1275,67 +1091,63 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@discordjs/builders@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.7.0.tgz#e2478c7e55b0f4c40837edb8f102bce977323a37"
+"@discordjs/builders@^1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.9.0.tgz#71fa6de91132bd1deaff2a9daea7aa5d5c9f124a"
   dependencies:
-    "@discordjs/formatters" "^0.3.3"
-    "@discordjs/util" "^1.0.2"
-    "@sapphire/shapeshift" "^3.9.3"
-    discord-api-types "0.37.61"
+    "@discordjs/formatters" "^0.5.0"
+    "@discordjs/util" "^1.1.1"
+    "@sapphire/shapeshift" "^4.0.0"
+    discord-api-types "0.37.97"
     fast-deep-equal "^3.1.3"
-    ts-mixer "^6.0.3"
-    tslib "^2.6.2"
+    ts-mixer "^6.0.4"
+    tslib "^2.6.3"
 
 "@discordjs/collection@1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-1.5.3.tgz#5a1250159ebfff9efa4f963cfa7e97f1b291be18"
 
-"@discordjs/collection@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-2.0.0.tgz#409b80c74eb8486cc4ee6a9b83426aaff1380f8c"
+"@discordjs/collection@^2.1.0", "@discordjs/collection@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-2.1.1.tgz#901917bc538c12b9c3613036d317847baee08cae"
 
-"@discordjs/formatters@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@discordjs/formatters/-/formatters-0.3.3.tgz#b16fdd79bb819680ab7e519193004e9dc124a749"
+"@discordjs/formatters@^0.5.0":
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/@discordjs/formatters/-/formatters-0.5.0.tgz#2d284c4271bc41984339936df1d0164e470f3b7a"
   dependencies:
-    discord-api-types "0.37.61"
+    discord-api-types "0.37.97"
 
-"@discordjs/rest@^2.1.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.2.0.tgz#f4ec00d3faff965c00a879b7e87bb4b6f4446966"
+"@discordjs/rest@^2.3.0", "@discordjs/rest@^2.4.0":
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.4.0.tgz#63bfc816af58af844914e3589d7eae609cd199b5"
   dependencies:
-    "@discordjs/collection" "^2.0.0"
-    "@discordjs/util" "^1.0.2"
-    "@sapphire/async-queue" "^1.5.0"
-    "@sapphire/snowflake" "^3.5.1"
-    "@vladfrangu/async_event_emitter" "^2.2.2"
-    discord-api-types "0.37.61"
-    magic-bytes.js "^1.5.0"
+    "@discordjs/collection" "^2.1.1"
+    "@discordjs/util" "^1.1.1"
+    "@sapphire/async-queue" "^1.5.3"
+    "@sapphire/snowflake" "^3.5.3"
+    "@vladfrangu/async_event_emitter" "^2.4.6"
+    discord-api-types "0.37.97"
+    magic-bytes.js "^1.10.0"
+    tslib "^2.6.3"
+    undici "6.19.8"
+
+"@discordjs/util@^1.1.0", "@discordjs/util@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/util/-/util-1.1.1.tgz#bafcde0faa116c834da1258d78ec237080bbab29"
+
+"@discordjs/ws@1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/ws/-/ws-1.1.1.tgz#bffbfd46838258ab09054ed98ddef1a36f6507a3"
+  dependencies:
+    "@discordjs/collection" "^2.1.0"
+    "@discordjs/rest" "^2.3.0"
+    "@discordjs/util" "^1.1.0"
+    "@sapphire/async-queue" "^1.5.2"
+    "@types/ws" "^8.5.10"
+    "@vladfrangu/async_event_emitter" "^2.2.4"
+    discord-api-types "0.37.83"
     tslib "^2.6.2"
-    undici "5.27.2"
-
-"@discordjs/util@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@discordjs/util/-/util-1.0.2.tgz#dc1896d764452b1bd9707eb9aa99ccfbb30bd1c0"
-
-"@discordjs/ws@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@discordjs/ws/-/ws-1.0.2.tgz#3933b12d4686aabf6a95dfe5fb6e744342a661d1"
-  dependencies:
-    "@discordjs/collection" "^2.0.0"
-    "@discordjs/rest" "^2.1.0"
-    "@discordjs/util" "^1.0.2"
-    "@sapphire/async-queue" "^1.5.0"
-    "@types/ws" "^8.5.9"
-    "@vladfrangu/async_event_emitter" "^2.2.2"
-    discord-api-types "0.37.61"
-    tslib "^2.6.2"
-    ws "^8.14.2"
-
-"@fastify/busboy@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
+    ws "^8.16.0"
 
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.5"
@@ -1383,22 +1195,18 @@
   version "2.1.8-no-fsevents.3"
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz"
 
-"@sapphire/async-queue@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/async-queue/-/async-queue-1.5.0.tgz#2f255a3f186635c4fb5a2381e375d3dfbc5312d8"
+"@sapphire/async-queue@^1.5.2", "@sapphire/async-queue@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@sapphire/async-queue/-/async-queue-1.5.3.tgz#03cd2a2f3665068f314736bdc56eee2025352422"
 
-"@sapphire/shapeshift@^3.9.3":
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-3.9.7.tgz#43e23243cac8a0c046bf1e73baf3dbf407d33a0c"
+"@sapphire/shapeshift@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz#86c1b41002ff5d0b2ad21cbc3418b06834b89040"
   dependencies:
     fast-deep-equal "^3.1.3"
     lodash "^4.17.21"
 
-"@sapphire/snowflake@3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.1.tgz#254521c188b49e8b2d4cc048b475fb2b38737fec"
-
-"@sapphire/snowflake@^3.5.1":
+"@sapphire/snowflake@3.5.3", "@sapphire/snowflake@^3.5.3":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.3.tgz#0c102aa2ec5b34f806e9bc8625fc6a5e1d0a0c6a"
 
@@ -1451,21 +1259,15 @@
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/@types/triple-beam/-/triple-beam-1.3.5.tgz#74fef9ffbaa198eb8b588be029f38b00299caa2c"
 
-"@types/ws@8.5.9":
-  version "8.5.9"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.9.tgz#384c489f99c83225a53f01ebc3eddf3b8e202a8c"
+"@types/ws@^8.5.10":
+  version "8.5.12"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.12.tgz#619475fe98f35ccca2a2f6c137702d85ec247b7e"
   dependencies:
     "@types/node" "*"
 
-"@types/ws@^8.5.9":
-  version "8.5.10"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.10.tgz#4acfb517970853fa6574a3a6886791d04a396787"
-  dependencies:
-    "@types/node" "*"
-
-"@vladfrangu/async_event_emitter@^2.2.2":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@vladfrangu/async_event_emitter/-/async_event_emitter-2.2.4.tgz#d3537432c6db6444680a596271dff8ea407343b3"
+"@vladfrangu/async_event_emitter@^2.2.4", "@vladfrangu/async_event_emitter@^2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.6.tgz#508b6c45b03f917112a9008180b308ba0e4d1805"
 
 abbrev@1:
   version "1.1.1"
@@ -1733,28 +1535,34 @@ diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.npmjs.org/diff/-/diff-4.0.2.tgz"
 
-discord-api-types@0.37.61:
-  version "0.37.61"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.61.tgz#9dd8e58c624237e6f1b23be2d29579af268b8c5b"
+discord-api-types@0.37.100:
+  version "0.37.100"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.100.tgz#5979892d39511bc7f1dbb9660d2d2cad698b3de7"
 
-discord.js@^14.14.1:
-  version "14.14.1"
-  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.14.1.tgz#9a2bea23bba13819705ab87612837610abce9ee3"
+discord-api-types@0.37.83:
+  version "0.37.83"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.83.tgz#a22a799729ceded8176ea747157837ddf4708b1f"
+
+discord-api-types@0.37.97:
+  version "0.37.97"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.97.tgz#d658573f726ad179261d538dbad4e7e8eca48d11"
+
+discord.js@^14.15.1:
+  version "14.16.3"
+  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.16.3.tgz#9553366953c992469f47a55af2a11c2054a9babe"
   dependencies:
-    "@discordjs/builders" "^1.7.0"
+    "@discordjs/builders" "^1.9.0"
     "@discordjs/collection" "1.5.3"
-    "@discordjs/formatters" "^0.3.3"
-    "@discordjs/rest" "^2.1.0"
-    "@discordjs/util" "^1.0.2"
-    "@discordjs/ws" "^1.0.2"
-    "@sapphire/snowflake" "3.5.1"
-    "@types/ws" "8.5.9"
-    discord-api-types "0.37.61"
+    "@discordjs/formatters" "^0.5.0"
+    "@discordjs/rest" "^2.4.0"
+    "@discordjs/util" "^1.1.1"
+    "@discordjs/ws" "1.1.1"
+    "@sapphire/snowflake" "3.5.3"
+    discord-api-types "0.37.100"
     fast-deep-equal "3.1.3"
     lodash.snakecase "4.1.1"
-    tslib "2.6.2"
-    undici "5.27.2"
-    ws "8.14.2"
+    tslib "^2.6.3"
+    undici "6.19.8"
 
 dotenv@^16.4.5:
   version "16.4.5"
@@ -2124,7 +1932,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-bytes.js@^1.5.0:
+magic-bytes.js@^1.10.0:
   version "1.10.0"
   resolved "https://registry.yarnpkg.com/magic-bytes.js/-/magic-bytes.js-1.10.0.tgz#c41cf4bc2f802992b05e64962411c9dd44fdef92"
 
@@ -2511,9 +2319,9 @@ triple-beam@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/triple-beam/-/triple-beam-1.3.0.tgz"
 
-ts-mixer@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.3.tgz#69bd50f406ff39daa369885b16c77a6194c7cae6"
+ts-mixer@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.4.tgz#1da39ceabc09d947a82140d9f09db0f84919ca28"
 
 ts-node@^10.9.2:
   version "10.9.2"
@@ -2533,9 +2341,13 @@ ts-node@^10.9.2:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@2.6.2, tslib@^2.6.2:
+tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+
+tslib@^2.6.3:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.7.0.tgz#d9b40c5c40ab59e8738f297df3087bf1a2690c01"
 
 typescript@^5.6.3:
   version "5.6.3"
@@ -2562,11 +2374,9 @@ undici-types@~6.19.2:
   version "6.19.8"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
 
-undici@5.27.2:
-  version "5.27.2"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.27.2.tgz#a270c563aea5b46cc0df2550523638c95c5d4411"
-  dependencies:
-    "@fastify/busboy" "^2.0.0"
+undici@6.19.8:
+  version "6.19.8"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.19.8.tgz#002d7c8a28f8cc3a44ff33c3d4be4d85e15d40e1"
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
@@ -2661,13 +2471,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
 
-ws@8.14.2:
-  version "8.14.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
-
-ws@^8.14.2:
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.0.tgz#d145d18eca2ed25aaf791a183903f7be5e295fea"
+ws@^8.16.0:
+  version "8.18.0"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
 
 yallist@^3.0.2:
   version "3.1.1"
