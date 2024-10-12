@@ -34,7 +34,7 @@
     "amqplib": "^0.10.3",
     "colors": "^1.4.0",
     "command-line-args": "^5.2.1",
-    "discord.js": "^14.15.1",
+    "discord.js": "^14.16.2",
     "dotenv": "^16.4.5",
     "fs-extra": "^11.2.0",
     "profanities": "^3.0.1",
