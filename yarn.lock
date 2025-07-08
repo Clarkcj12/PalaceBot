@@ -1275,67 +1275,63 @@
     enabled "2.0.x"
     kuler "^2.0.0"
 
-"@discordjs/builders@^1.7.0":
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.7.0.tgz#e2478c7e55b0f4c40837edb8f102bce977323a37"
+"@discordjs/builders@^1.11.2":
+  version "1.11.2"
+  resolved "https://registry.yarnpkg.com/@discordjs/builders/-/builders-1.11.2.tgz#b96185d05d22f9d6bde89aada2decf45a5c982ce"
   dependencies:
-    "@discordjs/formatters" "^0.3.3"
-    "@discordjs/util" "^1.0.2"
-    "@sapphire/shapeshift" "^3.9.3"
-    discord-api-types "0.37.61"
+    "@discordjs/formatters" "^0.6.1"
+    "@discordjs/util" "^1.1.1"
+    "@sapphire/shapeshift" "^4.0.0"
+    discord-api-types "^0.38.1"
     fast-deep-equal "^3.1.3"
-    ts-mixer "^6.0.3"
-    tslib "^2.6.2"
+    ts-mixer "^6.0.4"
+    tslib "^2.6.3"
 
 "@discordjs/collection@1.5.3":
   version "1.5.3"
   resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-1.5.3.tgz#5a1250159ebfff9efa4f963cfa7e97f1b291be18"
 
-"@discordjs/collection@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-2.0.0.tgz#409b80c74eb8486cc4ee6a9b83426aaff1380f8c"
+"@discordjs/collection@^2.1.0", "@discordjs/collection@^2.1.1":
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/collection/-/collection-2.1.1.tgz#901917bc538c12b9c3613036d317847baee08cae"
 
-"@discordjs/formatters@^0.3.3":
-  version "0.3.3"
-  resolved "https://registry.yarnpkg.com/@discordjs/formatters/-/formatters-0.3.3.tgz#b16fdd79bb819680ab7e519193004e9dc124a749"
+"@discordjs/formatters@^0.6.1":
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/formatters/-/formatters-0.6.1.tgz#211bf3eb060d8fe7fa1f020b8be3c4adad00555a"
   dependencies:
-    discord-api-types "0.37.61"
+    discord-api-types "^0.38.1"
 
-"@discordjs/rest@^2.1.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.2.0.tgz#f4ec00d3faff965c00a879b7e87bb4b6f4446966"
+"@discordjs/rest@^2.5.1":
+  version "2.5.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/rest/-/rest-2.5.1.tgz#a6bde4d08f0e23bd763506cc1fcc83564afee077"
   dependencies:
-    "@discordjs/collection" "^2.0.0"
-    "@discordjs/util" "^1.0.2"
-    "@sapphire/async-queue" "^1.5.0"
-    "@sapphire/snowflake" "^3.5.1"
-    "@vladfrangu/async_event_emitter" "^2.2.2"
-    discord-api-types "0.37.61"
-    magic-bytes.js "^1.5.0"
+    "@discordjs/collection" "^2.1.1"
+    "@discordjs/util" "^1.1.1"
+    "@sapphire/async-queue" "^1.5.3"
+    "@sapphire/snowflake" "^3.5.3"
+    "@vladfrangu/async_event_emitter" "^2.4.6"
+    discord-api-types "^0.38.1"
+    magic-bytes.js "^1.10.0"
+    tslib "^2.6.3"
+    undici "6.21.3"
+
+"@discordjs/util@^1.1.0", "@discordjs/util@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@discordjs/util/-/util-1.1.1.tgz#bafcde0faa116c834da1258d78ec237080bbab29"
+
+"@discordjs/ws@^1.2.3":
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/@discordjs/ws/-/ws-1.2.3.tgz#7cf80d8528366c6810c02b43ca49958ef154c3d4"
+  dependencies:
+    "@discordjs/collection" "^2.1.0"
+    "@discordjs/rest" "^2.5.1"
+    "@discordjs/util" "^1.1.0"
+    "@sapphire/async-queue" "^1.5.2"
+    "@types/ws" "^8.5.10"
+    "@vladfrangu/async_event_emitter" "^2.2.4"
+    discord-api-types "^0.38.1"
     tslib "^2.6.2"
-    undici "5.27.2"
-
-"@discordjs/util@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@discordjs/util/-/util-1.0.2.tgz#dc1896d764452b1bd9707eb9aa99ccfbb30bd1c0"
-
-"@discordjs/ws@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@discordjs/ws/-/ws-1.0.2.tgz#3933b12d4686aabf6a95dfe5fb6e744342a661d1"
-  dependencies:
-    "@discordjs/collection" "^2.0.0"
-    "@discordjs/rest" "^2.1.0"
-    "@discordjs/util" "^1.0.2"
-    "@sapphire/async-queue" "^1.5.0"
-    "@types/ws" "^8.5.9"
-    "@vladfrangu/async_event_emitter" "^2.2.2"
-    discord-api-types "0.37.61"
-    tslib "^2.6.2"
-    ws "^8.14.2"
-
-"@fastify/busboy@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@fastify/busboy/-/busboy-2.0.0.tgz#f22824caff3ae506b18207bad4126dbc6ccdb6b8"
+    ws "^8.17.0"
 
 "@jridgewell/gen-mapping@^0.3.5":
   version "0.3.5"
@@ -1383,24 +1379,24 @@
   version "2.1.8-no-fsevents.3"
   resolved "https://registry.npmjs.org/@nicolo-ribaudo/chokidar-2/-/chokidar-2-2.1.8-no-fsevents.3.tgz"
 
-"@sapphire/async-queue@^1.5.0":
-  version "1.5.0"
-  resolved "https://registry.yarnpkg.com/@sapphire/async-queue/-/async-queue-1.5.0.tgz#2f255a3f186635c4fb5a2381e375d3dfbc5312d8"
+"@sapphire/async-queue@^1.5.2", "@sapphire/async-queue@^1.5.3":
+  version "1.5.5"
+  resolved "https://registry.yarnpkg.com/@sapphire/async-queue/-/async-queue-1.5.5.tgz#2b18d402bb920b65b13ad4ed8dfb6c386300dd84"
 
-"@sapphire/shapeshift@^3.9.3":
-  version "3.9.7"
-  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-3.9.7.tgz#43e23243cac8a0c046bf1e73baf3dbf407d33a0c"
+"@sapphire/shapeshift@^4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@sapphire/shapeshift/-/shapeshift-4.0.0.tgz#86c1b41002ff5d0b2ad21cbc3418b06834b89040"
   dependencies:
     fast-deep-equal "^3.1.3"
     lodash "^4.17.21"
 
-"@sapphire/snowflake@3.5.1":
-  version "3.5.1"
-  resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.1.tgz#254521c188b49e8b2d4cc048b475fb2b38737fec"
-
-"@sapphire/snowflake@^3.5.1":
+"@sapphire/snowflake@3.5.3":
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.3.tgz#0c102aa2ec5b34f806e9bc8625fc6a5e1d0a0c6a"
+
+"@sapphire/snowflake@^3.5.3":
+  version "3.5.5"
+  resolved "https://registry.yarnpkg.com/@sapphire/snowflake/-/snowflake-3.5.5.tgz#33a60ab4231e3cab29e8a0077f342125f2c8d1bd"
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.8"
@@ -1451,21 +1447,15 @@
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/@types/triple-beam/-/triple-beam-1.3.5.tgz#74fef9ffbaa198eb8b588be029f38b00299caa2c"
 
-"@types/ws@8.5.9":
-  version "8.5.9"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.9.tgz#384c489f99c83225a53f01ebc3eddf3b8e202a8c"
+"@types/ws@^8.5.10":
+  version "8.18.1"
+  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.18.1.tgz#48464e4bf2ddfd17db13d845467f6070ffea4aa9"
   dependencies:
     "@types/node" "*"
 
-"@types/ws@^8.5.9":
-  version "8.5.10"
-  resolved "https://registry.yarnpkg.com/@types/ws/-/ws-8.5.10.tgz#4acfb517970853fa6574a3a6886791d04a396787"
-  dependencies:
-    "@types/node" "*"
-
-"@vladfrangu/async_event_emitter@^2.2.2":
-  version "2.2.4"
-  resolved "https://registry.yarnpkg.com/@vladfrangu/async_event_emitter/-/async_event_emitter-2.2.4.tgz#d3537432c6db6444680a596271dff8ea407343b3"
+"@vladfrangu/async_event_emitter@^2.2.4", "@vladfrangu/async_event_emitter@^2.4.6":
+  version "2.4.6"
+  resolved "https://registry.yarnpkg.com/@vladfrangu/async_event_emitter/-/async_event_emitter-2.4.6.tgz#508b6c45b03f917112a9008180b308ba0e4d1805"
 
 abbrev@1:
   version "1.1.1"
@@ -1595,21 +1585,7 @@ chalk@^2.4.2:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-chokidar@^3.5.2:
-  version "3.5.3"
-  resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.5.3.tgz#1cf37c8707b932bd1af1ae22c0432e2acd1903bd"
-  dependencies:
-    anymatch "~3.1.2"
-    braces "~3.0.2"
-    glob-parent "~5.1.2"
-    is-binary-path "~2.1.0"
-    is-glob "~4.0.1"
-    normalize-path "~3.0.0"
-    readdirp "~3.6.0"
-  optionalDependencies:
-    fsevents "~2.3.2"
-
-chokidar@^3.6.0:
+chokidar@^3.5.2, chokidar@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/chokidar/-/chokidar-3.6.0.tgz#197c6cc669ef2a8dc5e7b4d97ee4e092c3eb0d5b"
   dependencies:
@@ -1733,28 +1709,27 @@ diff@^4.0.1:
   version "4.0.2"
   resolved "https://registry.npmjs.org/diff/-/diff-4.0.2.tgz"
 
-discord-api-types@0.37.61:
-  version "0.37.61"
-  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.37.61.tgz#9dd8e58c624237e6f1b23be2d29579af268b8c5b"
+discord-api-types@^0.38.1:
+  version "0.38.15"
+  resolved "https://registry.yarnpkg.com/discord-api-types/-/discord-api-types-0.38.15.tgz#5c5e14c7049fa974096cb8172d0ec29dc5f880a6"
 
-discord.js@^14.14.1:
-  version "14.14.1"
-  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.14.1.tgz#9a2bea23bba13819705ab87612837610abce9ee3"
+discord.js@^14.20.0:
+  version "14.21.0"
+  resolved "https://registry.yarnpkg.com/discord.js/-/discord.js-14.21.0.tgz#f786b39083dce3add74966a926ca3cce1251cd92"
   dependencies:
-    "@discordjs/builders" "^1.7.0"
+    "@discordjs/builders" "^1.11.2"
     "@discordjs/collection" "1.5.3"
-    "@discordjs/formatters" "^0.3.3"
-    "@discordjs/rest" "^2.1.0"
-    "@discordjs/util" "^1.0.2"
-    "@discordjs/ws" "^1.0.2"
-    "@sapphire/snowflake" "3.5.1"
-    "@types/ws" "8.5.9"
-    discord-api-types "0.37.61"
+    "@discordjs/formatters" "^0.6.1"
+    "@discordjs/rest" "^2.5.1"
+    "@discordjs/util" "^1.1.1"
+    "@discordjs/ws" "^1.2.3"
+    "@sapphire/snowflake" "3.5.3"
+    discord-api-types "^0.38.1"
     fast-deep-equal "3.1.3"
     lodash.snakecase "4.1.1"
-    tslib "2.6.2"
-    undici "5.27.2"
-    ws "8.14.2"
+    magic-bytes.js "^1.10.0"
+    tslib "^2.6.3"
+    undici "6.21.3"
 
 dotenv@^16.4.5:
   version "16.4.5"
@@ -2124,9 +2099,9 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-bytes.js@^1.5.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/magic-bytes.js/-/magic-bytes.js-1.10.0.tgz#c41cf4bc2f802992b05e64962411c9dd44fdef92"
+magic-bytes.js@^1.10.0:
+  version "1.12.1"
+  resolved "https://registry.yarnpkg.com/magic-bytes.js/-/magic-bytes.js-1.12.1.tgz#031fedceb1fc652c1ccd917c6b45a6e8d6554245"
 
 make-dir@^2.0.0, make-dir@^2.1.0:
   version "2.1.0"
@@ -2160,9 +2135,9 @@ node-releases@^2.0.18:
   version "2.0.18"
   resolved "https://registry.yarnpkg.com/node-releases/-/node-releases-2.0.18.tgz#f010e8d35e2fe8d6b2944f03f70213ecedc4ca3f"
 
-nodemon@^3.1.4:
-  version "3.1.4"
-  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-3.1.4.tgz#c34dcd8eb46a05723ccde60cbdd25addcc8725e4"
+nodemon@^3.1.10:
+  version "3.1.10"
+  resolved "https://registry.yarnpkg.com/nodemon/-/nodemon-3.1.10.tgz#5015c5eb4fffcb24d98cf9454df14f4fecec9bc1"
   dependencies:
     chokidar "^3.5.2"
     debug "^4"
@@ -2511,9 +2486,9 @@ triple-beam@^1.3.0:
   version "1.3.0"
   resolved "https://registry.npmjs.org/triple-beam/-/triple-beam-1.3.0.tgz"
 
-ts-mixer@^6.0.3:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.3.tgz#69bd50f406ff39daa369885b16c77a6194c7cae6"
+ts-mixer@^6.0.4:
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/ts-mixer/-/ts-mixer-6.0.4.tgz#1da39ceabc09d947a82140d9f09db0f84919ca28"
 
 ts-node@^10.9.2:
   version "10.9.2"
@@ -2533,9 +2508,13 @@ ts-node@^10.9.2:
     v8-compile-cache-lib "^3.0.1"
     yn "3.1.1"
 
-tslib@2.6.2, tslib@^2.6.2:
+tslib@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+
+tslib@^2.6.3:
+  version "2.8.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.8.1.tgz#612efe4ed235d567e8aba5f2a5fab70280ade83f"
 
 typescript@^5.6.3:
   version "5.6.3"
@@ -2562,11 +2541,9 @@ undici-types@~6.19.2:
   version "6.19.8"
   resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
 
-undici@5.27.2:
-  version "5.27.2"
-  resolved "https://registry.yarnpkg.com/undici/-/undici-5.27.2.tgz#a270c563aea5b46cc0df2550523638c95c5d4411"
-  dependencies:
-    "@fastify/busboy" "^2.0.0"
+undici@6.21.3:
+  version "6.21.3"
+  resolved "https://registry.yarnpkg.com/undici/-/undici-6.21.3.tgz#185752ad92c3d0efe7a7d1f6854a50f83b552d7a"
 
 unicode-canonical-property-names-ecmascript@^2.0.0:
   version "2.0.0"
@@ -2661,13 +2638,9 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz"
 
-ws@8.14.2:
-  version "8.14.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.14.2.tgz#6c249a806eb2db7a20d26d51e7709eab7b2e6c7f"
-
-ws@^8.14.2:
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.0.tgz#d145d18eca2ed25aaf791a183903f7be5e295fea"
+ws@^8.17.0:
+  version "8.18.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.3.tgz#b56b88abffde62791c639170400c93dcb0c95472"
 
 yallist@^3.0.2:
   version "3.1.1"
