@@ -2,14 +2,6 @@
 # yarn lockfile v1
 
 
-"@acuminous/bitsyntax@^0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@acuminous/bitsyntax/-/bitsyntax-0.1.2.tgz#e0b31b9ee7ad1e4dd840c34864327c33d9f1f653"
-  dependencies:
-    buffer-more-ints "~1.0.0"
-    debug "^4.3.4"
-    safe-buffer "~5.1.2"
-
 "@ampproject/remapping@^2.2.0":
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/@ampproject/remapping/-/remapping-2.3.0.tgz#ed441b6fa600072520ce18b43d2c8cc8caecc7f4"
@@ -1473,13 +1465,11 @@ add@^2.0.6:
   version "2.0.6"
   resolved "https://registry.yarnpkg.com/add/-/add-2.0.6.tgz#248f0a9f6e5a528ef2295dbeec30532130ae2235"
 
-amqplib@^0.10.3:
-  version "0.10.3"
-  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.10.3.tgz#e186a2f74521eb55ec54db6d25ae82c29c1f911a"
+amqplib@^0.10.8:
+  version "0.10.8"
+  resolved "https://registry.yarnpkg.com/amqplib/-/amqplib-0.10.8.tgz#87f5173df65f17008ad5dd0736174724b8211b11"
   dependencies:
-    "@acuminous/bitsyntax" "^0.1.2"
     buffer-more-ints "~1.0.0"
-    readable-stream "1.x >=1.1.9"
     url-parse "~1.5.10"
 
 ansi-styles@^3.2.1:
@@ -1685,15 +1675,11 @@ core-js@^3.26.0:
   version "3.26.1"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.26.1.tgz#7a9816dabd9ee846c1c0fe0e8fcad68f3709134e"
 
-core-util-is@~1.0.0:
-  version "1.0.2"
-  resolved "https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz"
-
 create-require@^1.1.0:
   version "1.1.1"
   resolved "https://registry.npmjs.org/create-require/-/create-require-1.1.1.tgz"
 
-debug@^4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.4:
+debug@^4, debug@^4.1.0, debug@^4.1.1, debug@^4.3.1:
   version "4.3.6"
   resolved "https://registry.yarnpkg.com/debug/-/debug-4.3.6.tgz#2ab2c38fbaffebf8aa95fdfe6d88438c7a13c52b"
   dependencies:
@@ -1922,7 +1908,7 @@ inflight@^1.0.4:
     once "^1.3.0"
     wrappy "1"
 
-inherits@2, inherits@^2.0.3, inherits@~2.0.1:
+inherits@2, inherits@^2.0.3:
   version "2.0.4"
   resolved "https://registry.npmjs.org/inherits/-/inherits-2.0.4.tgz"
 
@@ -2008,10 +1994,6 @@ is-symbol@^1.0.2, is-symbol@^1.0.3:
   resolved "https://registry.npmjs.org/is-symbol/-/is-symbol-1.0.3.tgz"
   dependencies:
     has-symbols "^1.0.1"
-
-isarray@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz"
 
 isobject@^3.0.1:
   version "3.0.1"
@@ -2267,15 +2249,6 @@ querystringify@^2.1.1:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/querystringify/-/querystringify-2.2.0.tgz#3345941b4153cb9d082d8eee4cda2016a9aef7f6"
 
-"readable-stream@1.x >=1.1.9":
-  version "1.1.14"
-  resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-1.1.14.tgz"
-  dependencies:
-    core-util-is "~1.0.0"
-    inherits "~2.0.1"
-    isarray "0.0.1"
-    string_decoder "~0.10.x"
-
 readable-stream@^3.4.0, readable-stream@^3.6.0:
   version "3.6.0"
   resolved "https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.0.tgz"
@@ -2373,7 +2346,7 @@ resolve@^1.14.2:
     is-core-module "^2.2.0"
     path-parse "^1.0.6"
 
-safe-buffer@~5.1.0, safe-buffer@~5.1.2:
+safe-buffer@~5.1.0:
   version "5.1.2"
   resolved "https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz"
 
@@ -2451,10 +2424,6 @@ string_decoder@^1.1.1:
   resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz"
   dependencies:
     safe-buffer "~5.1.0"
-
-string_decoder@~0.10.x:
-  version "0.10.31"
-  resolved "https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz"
 
 supports-color@^5.3.0, supports-color@^5.5.0:
   version "5.5.0"
